@@ -30,17 +30,10 @@ void main()
 	{
 	// customization 
 	case 1:
-		// step
-		cout << "Enter Step\t(the number which will be added each time)"	<< endl
-			 << "By default it is '1'" << endl;
-		cin >> step;
-
 		// delay
-		cout << "Enter Delay\t\t(set the delay in milliseconds)" << endl
+		cout << "Enter Delay\t(set the delay in milliseconds)" << endl
 			 << "By default it is '1000'" << endl;
 		cin >> delay;
-
-
 
 
 	// the clock
