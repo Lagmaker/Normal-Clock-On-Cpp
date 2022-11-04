@@ -2,4 +2,4 @@
 avg c++ clock via cmd
 
 
-![изображение](https://user-images.githubusercontent.com/86431413/200076954-d9b22489-48e1-4ba9-b79d-4b00fbb28bef.png)
+![изображение](https://user-images.githubusercontent.com/86431413/200081462-1fd109ed-a779-4ee5-a9dd-4f0b84056a66.png)
