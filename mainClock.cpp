@@ -12,7 +12,7 @@ void main()
 	int minute = 0;
 	int hour = 0;
 
-	int step = 1;
+	int step = 1;		
 	int delay = 1000;
 
 
@@ -69,17 +69,17 @@ void main()
 			// mega resets
 			//
 			// resets seconds
-			if (second == 60)
+			if (second >= 60)
 			{
 				second = 0;
-				minute += step;
+				minute++;
 			}
 
 			// resets minutes
 			if (minute == 60)
 			{
 				minute = 0;
-				hour += step;
+				hour++;
 			}
 
 			// resets everything		// full cycle complete
