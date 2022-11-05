@@ -83,7 +83,7 @@ void main()
 			}
 
 			// resets everything		// full cycle complete
-			if ((hour == 24) && (minute == 00) && (second == 00))
+			if (hour == 24)
 			{
 				second = 0;
 				minute = 0;
