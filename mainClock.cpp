@@ -45,9 +45,6 @@ void main()
 	case 2:
 		while (true)
 		{
-
-			// mega output
-			//
 			// print hours
 			if (hour <= 9) cout << "0" << hour << ":";
 			else cout << hour << ":";
@@ -59,29 +56,23 @@ void main()
 			else cout << second << endl;
 
 
-
 			// engine of clock
 			Sleep(delay);
 			second += step;
 
 
-
-			// mega resets
-			//
 			// resets seconds
 			if (second >= 60)
 			{
 				second = 0;
 				minute++;
 			}
-
 			// resets minutes
 			if (minute == 60)
 			{
 				minute = 0;
 				hour++;
 			}
-
 			// resets everything		// full cycle complete
 			if (hour == 24)
 			{
@@ -91,10 +82,7 @@ void main()
 			}
 
 		}	// here "while" ends
-
-
 		break;
-
 	default: cout << "Invalid number" << endl;
 	}
 
